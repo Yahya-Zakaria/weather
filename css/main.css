@@ -80,6 +80,9 @@ a.active {
   .card {
     height: 240px;
   }
+  .container{
+    width:90%;
+  }
 }
 
 .hero-section {
