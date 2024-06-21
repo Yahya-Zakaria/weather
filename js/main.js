@@ -42,12 +42,12 @@ async function mainCardWearther(userSearch) {
   try {
     // get current ip for user
     let mainReq = await fetch(
-      `http://api.weatherapi.com/v1/ip.json?key=59bb54ac9f864f91892221407241706&q=auto:ip`
+      `https://api.weatherapi.com/v1/ip.json?key=59bb54ac9f864f91892221407241706&q=auto:ip`
     );
     let mainReqData = await mainReq.json();
     if (mainReqData.length !== 0) {
       let currentWeather = await fetch(
-        `http://api.weatherapi.com/v1/forecast.json?key=59bb54ac9f864f91892221407241706&q=${
+        `https://api.weatherapi.com/v1/forecast.json?key=59bb54ac9f864f91892221407241706&q=${
           userSearch || mainReqData.ip
         }&days=3`
       );
