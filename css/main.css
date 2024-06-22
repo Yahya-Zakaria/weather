@@ -99,7 +99,7 @@ a.active {
 .searchInp::placeholder,
 .subInp::placeholder {
   color: rgba(255, 255, 255, 0.419);
-  font-size: 14px;
+  font-size: 13px;
 }
 .searchInp,
 .subInp {
