@@ -68,8 +68,7 @@ async function mainCardWearther(userSearch) {
     currentWindSpeed.innerHTML = `<i class="fa-solid fa-wind"></i> ${weatherData.current.wind_kph} km/h`;
     currentWindDir.innerHTML = weatherData.current.wind_dir;
     currentWindDir.innerHTML += `<i class="ps-2  fa-solid fa-location-arrow"  style="transform: rotate(${weatherData.current.wind_degree}deg);   transform-origin:right;" ></i> `;
-    console.log(date);
-    console.log(weatherData);
+
 
     // sec card get api
     let secDayDate = new Date(`${weatherData.forecast.forecastday[1].date}`);
@@ -86,7 +85,7 @@ async function mainCardWearther(userSearch) {
     trdDayMinTemp.innerHTML = `${weatherData.forecast.forecastday[2].day.mintemp_c}°C`;
     trdDayStrStatus.innerHTML = `${weatherData.forecast.forecastday[2].day.condition.text}`;
   } catch {
-    console
+
   }
 }
 
