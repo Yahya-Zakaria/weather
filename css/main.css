@@ -223,14 +223,14 @@ a.active {
 @keyframes shadowPulse {
   33% {
     background: #FFF;
-    box-shadow: -24px 0 #FF3D00, 24px 0 #FFF;
+    box-shadow: -24px 0 #1e202b, 24px 0 #FFF;
   }
   66% {
-    background: #FF3D00;
+    background: #1e202b;
     box-shadow: -24px 0 #FFF, 24px 0 #FFF;
   }
   100% {
     background: #FFF;
-    box-shadow: -24px 0 #FFF, 24px 0 #FF3D00;
+    box-shadow: -24px 0 #FFF, 24px 0 #1e202b;
   }
 }
