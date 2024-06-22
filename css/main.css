@@ -81,7 +81,10 @@ a.active {
     height: 240px;
   }
   .container{
-    width:90%;
+    width:95% !important;
+  }
+    .sub-inp{
+    width: 100%;
   }
 }
 
